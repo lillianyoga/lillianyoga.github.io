@@ -1682,3 +1682,14 @@ input, select, textarea {
 	/* width: 100%; */
 	text-align: center;
 }
+
+/* .googleform {
+	height: 675px;
+	overflow: scroll;
+	/* border-radius: 30px; */
+} */
+
+.actualgoogleform {
+	bottom: 40px;
+	position: relative;
+}

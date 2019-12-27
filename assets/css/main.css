@@ -778,6 +778,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: center;
 		cursor: default;
 		list-style: none;
 		margin-left: -1rem;
@@ -1498,7 +1499,6 @@ input, select, textarea {
 				#header nav.use-middle:after {
 					display: none;
 				}
-
 		}
 
 /* Main */
@@ -1673,3 +1673,8 @@ input, select, textarea {
 			.svglogo:before {
 				font-size: 2rem;
 			}
+	
+.contactinfo {
+	/* width: 100%; */
+	text-align: center;
+}

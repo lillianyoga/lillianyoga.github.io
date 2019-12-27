@@ -84,12 +84,12 @@ input, select, textarea {
 			min-width: 320px;
 		}
 
-			.svglogo {
-				width: 2.5rem;
-				height: 2.5rem;
-				line-height: 3.5rem;
-				margin-top: 0;
-			}
+		.svglogo {
+			width: 2.5rem;
+			height: 2.5rem;
+			line-height: 2.5rem;
+			margin-bottom: 10px;
+		}
 
 	}
 
@@ -1669,11 +1669,11 @@ input, select, textarea {
 
 		.svglogo {
 			width: 3.0rem;
-			height: 3.0rem;
+			/* height: 3.0rem; */
 			line-height: 3.0rem;
 			/* border: solid 1px #ffffff; */
 			/* border-radius: 100%; */
-			margin-top: 23%;
+			margin-top: 25%;
 			fill: white;
 			/* box-sizing: border-box; */
 		}

@@ -954,9 +954,9 @@ input, select, textarea {
 			border-right: 0;
 		}
 
-			table tbody tr:nth-child(2n + 1) {
+			/* table tbody tr:nth-child(2n + 1) {
 				background-color: rgba(255, 255, 255, 0.075);
-			}
+			} */
 
 		table td {
 			padding: 0.75em 0.75em;
@@ -1687,9 +1687,19 @@ input, select, textarea {
 	height: 675px;
 	overflow: scroll;
 	/* border-radius: 30px; */
-} */
+/* }  */
 
 .actualgoogleform {
 	bottom: 40px;
 	position: relative;
+}
+
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
 }

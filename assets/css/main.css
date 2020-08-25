@@ -1004,6 +1004,10 @@ input, select, textarea {
 				border-top: 0;
 			}
 
+			td:nth-child(1){
+				width: 110px;
+			}
+
 /* Button */
 
 	input[type="submit"],
